@@ -1,7 +1,7 @@
 @echo off
 
 rem Define the path to the HTML file within the Jenkins workspace
-set HTML_FILE=C:\Program Files\Jenkins\workspace\NewPipelineGit\index.html
+set HTML_FILE=C:\ProgramData\Jenkins\.jenkins\workspace\NewPipelineGit\src\index.html
 
 rem Check if the HTML file exists
 if not exist "%HTML_FILE%" (
